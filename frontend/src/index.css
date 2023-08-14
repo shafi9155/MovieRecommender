@@ -1,0 +1,103 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Navbar */
+
+.bg{
+  background-color: #060505;
+  height: 12vh;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* home */
+.home{
+          margin-top: 12vh ;
+          background:linear-gradient(120deg, #040406, #93939B);
+          height: 88vh;
+          width: 100%;
+          overflow: scroll;
+          overflow: hidden;
+}
+
+/* trending */
+
+/* .trending{
+  width:auto;
+  height: 10vh;
+  flex: content;
+  align-items: center ;
+  justify-content: center ;
+} */
+
+/* home image */
+
+.homeimg{
+  display: flex;
+  max-height: 80vh;
+  margin-top: 4vh;
+  border-radius:5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* search */
+
+.search{
+   margin-top: 4vh;
+   max-height: 80vh;
+}
+
+.he{
+  height: 8vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+
+/* seraching by inputs */
+.input{
+  width: 70%;
+  font-size: xx-large;
+  background-color: whitesmoke;
+  border-radius: 10%;
+}
+
+.result{
+    width: 80%;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    height: 35vh;
+    max-height: "500px";
+    background-color: rgb(15, 13, 13);
+    border-radius: "10px"
+}
+
+/* moveipage */ 
+
+/* Img */
+.logo{
+  height: 12vh;
+}
+
